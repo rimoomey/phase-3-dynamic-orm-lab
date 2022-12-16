@@ -24,7 +24,7 @@ describe Student do
     }
   }
 
-  let(:new_student) {Student.new(attributes)}
+  let(:new_student) { Student.new(attributes) }
 
   describe 'inheritance' do
     it 'inherits from InteractiveRecord class' do
